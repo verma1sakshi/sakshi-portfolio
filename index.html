@@ -257,12 +257,14 @@
                     </div>
                 </div>
             </div>
-            <form action="mailto:sakshiverma4566@gmail.com" method="post">
-                <input type="text" placeholder="name" class="box" required>
-                <input type="email" placeholder="email" class="box" required>
-                <input type="text" placeholder="Your thoughts" class="box" required>
-                <textarea id="" name="" cols="35" rows="15" class="box message"
-                    placeholder="enter your message"></textarea>
+            <form action="https://api.web3forms.com/submit" 
+             method= "POST">
+             <input type="hidden" name="access_key" value="a5e099f9-0df6-413e-86f5-e7fb82c44a86">
+                <input type="text"name="name" placeholder="Your name" class="box" required>
+                <input type="email" name="email" placeholder="Your email" class="box" required>
+                <input type="text" name="thoughts" placeholder="Your thoughts" class="box" required>
+                <!-- <textarea id="" name="" cols="35" rows="15" class="box message"
+                    placeholder="enter your message"></textarea> -->
                 <button id="submit" class="btn" type="submit">Submit <i class="fa fa-paper-plane"></i>
                 </button>
             </form>
